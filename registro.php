@@ -1,73 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-  <meta charset="utf-8">
-  <title>GdlWebCamp</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/fontawesome.all.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-
-
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-  <!-- Add your site or application content here -->
-  <header class="side-header">
-    <div class="hero">
-      <div class="contenido-header">
-        <nav class="redes-sociales">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-pinterest"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </nav>
-        <div class="informacion-evento">
-          <div class="clearfix">
-            <p class="fecha"><i class="far fa-calendar-alt"></i> 10 - 12 - Dic </p>
-            <p class="ciudad"><i class="fas fa-map-marker-alt"></i> Guadalajara, MX </p>
-          </div>
-          <h1 class="nombre-sitio">GdlWebCamp</h1>
-          <p class="slogan">La mejor conferencia de <span>diseño web</span></p>
-        </div>
-      </div>
-    </div> <!-- hero -->
-  </header>
-
-  <div class="barra">
-    <div class="contenedor clearfix">
-      <div class="logo">
-        <img src="img/logo.svg" alt="logo gdlwebcamp">
-      </div>
-      <div class="menu-movil">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <nav class="navegacion-principal">
-        <a href="conferencia.html">Conferencia</a>
-        <a href="#">Calendario</a>
-        <a href="#">Invitados</a>
-        <a href="registro.html">Reservaciones</a>
-      </nav>
-    </div> <!-- Contenedor -->
-  </div> <!--Barra -->
+<?php include_once 'includes/templates/header.php' ?>
 
 <section class="seccion contenedor">
   <h2>Registro de usuarios</h2>
@@ -87,7 +18,7 @@
       </div>
       <div id="error"></div>
     </div><!-- #datos_usuario-->
-    
+
 
     <div id="paquetes" class="paquetes">
       <h3>Elige el número de boletos</h3>
@@ -238,10 +169,10 @@
           </div><!--.extras-->
           <div class="total">
             <p>Resumen:</p>
-            <div class="lista-productos"></div>
+            <div id="lista-productos"></div>
 
             <p>Total:</p>
-            <div class="suma-total"></div>
+            <div id="suma-total"></div>
 
             <input type="hidden" name="total_pedido" id="total_pedido">
             <input id="btnRegistro" type="submit" name="submit" class="button" value="pagar" disabled>
@@ -251,40 +182,4 @@
   </form>
 </section>
 
- <footer class="site-footer">
-     <div class="contenedor clearfix">
-           <div class="footer-informacion">
-               <h3>Sobre <span>gdlwebcamp</span></h3>
-               <p>Praesent rutrum efficitur pharetra. Vivamus scelerisque pretium velit, id tempor turpis pulvinar et. Ut bibendum finibus massa non molestie. Curabitur urna metus, placerat gravida lacus ut, lacinia congue orci. Maecenas luctus mi at ex blandit vehicula. Morbi porttitor tempus euismod.</p>
-           </div>
-           <div class="ultimos-tweets">
-               <h3>Últimos <span>tweets</span></h3>
-                <a class="twitter-timeline" data-height="200" data-theme="light" data-link-color="#fe4918" href="https://twitter.com/CarlosEfrenGar2">Tweets by carlosworld</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-           </div>
-           <div class="menu">
-               <h3>Redes <span>sociales</span></h3>
-               <nav class="redes-sociales">
-                 <a href="#"><i class="fab fa-facebook"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-pinterest"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-               </nav>
-           </div>
-     </div>
-
-     <p class="copyright">
-       Todos los derechos Reservados GDLWEBCAMP 2020.
-     </p>
-     
- </footer>
-
-
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-</body>
-
-</html>
+<?php include_once 'includes/templates/footer.php' ?>

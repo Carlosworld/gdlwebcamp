@@ -529,7 +529,7 @@ div.detalle-evento p i{
 
 /* Ocultamos los Programas/Eventos/Talleres/Seminarios.*/
 /* div.ocultar {
-   display:none; 
+   display:none;
 } */
 
 /* Detalle Evento */
@@ -720,7 +720,6 @@ div.tabla-precio p.numero {
 
 div.mapa {
   height: 430px;
-  background-color: green;
 }
 
 /* Testimoniales */
@@ -946,7 +945,7 @@ div.paquetes .tabla-precio input {
 
 .contenido-dia {
 padding: 20px;
-display: none; 
+display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1027,7 +1026,7 @@ div.resumen input {
 }
 
 input[disabled].button {
- opacity: .5; 
+ opacity: .5;
 }
 
 #error {
