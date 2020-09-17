@@ -64,6 +64,16 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
+      <?php
+        $archivo = basename($_SERVER ['PHP_SELF']);
+        $pagina = str_replace(".php", "", $archivo);
+
+        if($pagina == 'invitados' || $pagina == 'index') {
+          echo '<script src="js/jquery.colorbox-min.js"></script>';
+        }elseif ($pagina == 'conferencia') {
+          echo '<script src="js/lightbox.js"></script>';
+        }
+      ?>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="js/main.js"></script>
 
