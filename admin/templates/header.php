@@ -12,17 +12,24 @@
   <!-- Ionicons -->
   <!-- <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
   <!-- overlayScrollbars -->
+  <!-- <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
+  <!-- <script src="css/buttons.bootstrap4.min.css"></script> -->
+
+
   <link rel="stylesheet" href="css/adminlte.min.css">
 
   <link rel="stylesheet" href="css/sweetalert2.min.css">
 
-  <!-- <link rel="stylesheet" href="css/AdminLTEdos.min.css"> -->
-  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+  <link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+
   <link rel="stylesheet" href="css/gdlwebcamp.css">
 
   <link rel="stylesheet" href="css/admin.css">
 
 
+  <link rel="stylesheet" href="css/responsive.bootstrap4.min.css">
 
 
   <!-- Google Font: Source Sans Pro -->

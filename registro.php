@@ -175,7 +175,7 @@
             <div id="suma-total"></div>
 
             <input type="hidden" name="total_pedido" id="total_pedido">
-            <input id="btnRegistro" type="submit" name="submit" class="button" value="pagar" disabled>
+            <input id="btnRegistro" type="submit" name="submit" class="button" value="pagar" >
           </div><!-- .total -->
         </div><!-- .caja -->
      </div><!-- #resumen -->

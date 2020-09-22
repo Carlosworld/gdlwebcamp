@@ -5,7 +5,11 @@
 <div class="wrapper">
   <!-- Navbar -->
   <?php include_once 'templates/barra.php'; ?>
-  <!-- /.navbar -->
+  <?php
+    
+    include_once 'funciones/funciones.php';
+    include_once 'funciones/sesiones.php';
+   ?>
 
     <!-- Main Sidebar Container -->
     <?php include_once 'templates/navegacion.php' ?>

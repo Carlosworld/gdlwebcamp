@@ -1,21 +1,16 @@
-<?php include_once 'templates/header.php';?>
+<?php
+include_once 'funciones/funciones.php';
+include_once 'funciones/sesiones.php';
+include_once 'templates/header.php';
+?>
 
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition skin-blue fixed sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
-  <!-- Navbar -->
-  <?php include_once 'templates/barra.php';?>
-  <!-- /.navbar -->
-
-    <!-- Main Sidebar Container -->
-    <?php include_once 'templates/navegacion.php';?>
-    <!-- .sidebar container -->
-
-    <!-- base de datos -->
-    <?php include_once 'funciones/funciones.php';  ?>
-
-    <!-- =============================================== -->
-
+<?php
+include_once 'templates/barra.php';
+include_once 'templates/navegacion.php';
+?>
      <!-- Content Wrapper. Contains page content -->
      <div class="content-wrapper">
        <!-- Content Header (Page header) -->
@@ -42,9 +37,9 @@
                         <i class="fas fa-times"></i></button>
                     </div>
                   </div>
-                  <div class="card-body">
                     <!-- form start -->
-                    <form role="form" name="crear-admin" id="crear-admin" method="post" action="insertar-admin.php">
+                    <div class="card-body">
+                    <form role="form" name="guardar-registro" id="guardar-registro" method="post" action="modelo-admin.php">
                       <div class="card-body">
                         <div class="form-group">
                           <label for="usuario">Usuario: </label>
@@ -62,7 +57,7 @@
                       <!-- /.card-body -->
 
                        <div class="card-footer">
-                        <input type="hidden" name="agregar-admin" value="1">
+                        <input type="hidden" name="registro" value="nuevo">
                         <button type="submit" class="btn btn-primary">Añadir</button>
                        </div>
                     </form>

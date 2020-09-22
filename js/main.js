@@ -21,8 +21,6 @@
     var apellido = document.getElementById('apellido');
     var email = document.getElementById('email');
 
-
-
     // Campos Pases
     var pase_dia = document.getElementById('pase_dia');
     var pase_dosdias = document.getElementById('pase_dosdias');

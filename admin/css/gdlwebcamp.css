@@ -31,10 +31,3 @@ ul.lista-precios li .numero {
 button.btn-navbar i {
   color: white;
 }
-
-.main-footer {
-  background: green!important;
-  border-top: 1px solid #dee2e6;
-  color: #869099;
-  padding: 1rem;
-}
