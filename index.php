@@ -11,9 +11,9 @@
   <section class="programa">
     <div class="contenedor-video">
       <video autoplay loop poster="img/bg-talleres.jpg">
-        <source src="../video/video.mp4" type="video/mp4">
-        <source src="../video/video.webm" type="video/webm">
-        <source src="../video/video.ogv" type="video/ogg">
+        <source src="video/video.mp4" type="video/mp4">
+        <source src="video/video.webm" type="video/webm">
+        <source src="video/video.ogv" type="video/ogg">
       </video>
     </div> <!-- contenedor-video -->
 
